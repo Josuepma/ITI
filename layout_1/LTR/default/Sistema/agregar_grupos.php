@@ -448,6 +448,20 @@
 							</ul>
 						</li>
 
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Pago Transpais</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
+								<li class="nav-item"><a href="Registro_pago.html" class="nav-link active">Registro</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item nav-item-submenu nav-item-closed">
+							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Tutorias</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
+								<li class="nav-item"><a href="Tutoria.php" class="nav-link active">Lista</a></li>
+							</ul>
+						</li>
+
 						<!-- /forms -->
 
 					</ul>
