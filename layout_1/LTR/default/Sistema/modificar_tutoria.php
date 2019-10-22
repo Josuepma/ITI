@@ -37,7 +37,7 @@
 	<!-- Main navbar -->
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
-			<a href="index.html" class="d-inline-block">
+			<a href="index.php" class="d-inline-block">
 				<img src="../../../../global_assets/images/logo_light.png" alt="">
 			</a>
 		</div>
@@ -403,7 +403,7 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">
+							<a href="index.php" class="nav-link">
 								<i class="icon-home4"></i>
 								<span>
 									Dashboard
@@ -415,36 +415,36 @@
 						<!-- /main -->
 
 						<!-- Forms -->
-					
+		
 						<li class="nav-item nav-item-submenu nav-item-closed">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Alumnos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
-								<li class="nav-item"><a href="agregar_alumnos.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="consultar_alumnos.html" class="nav-link active">Lista</a></li>
+								<li class="nav-item"><a href="agregar_alumnos.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="consultar_alumnos.php" class="nav-link active">Lista</a></li>
 							</ul>
 						</li>
 
 						<li class="nav-item nav-item-submenu nav-item-closed">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Maestros</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
-								<li class="nav-item"><a href="agregar_maestros.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="consultar_maestros.html" class="nav-link active">Lista</a></li>
+								<li class="nav-item"><a href="agregar_maestros.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="consultar_maestros.php" class="nav-link active">Lista</a></li>
 							</ul>
 						</li>
 
 						<li class="nav-item nav-item-submenu nav-item-closed">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Materias</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
-								<li class="nav-item"><a href="agregar_materias.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="consultar_materias.html" class="nav-link active">Lista</a></li>
+								<li class="nav-item"><a href="agregar_materias.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="consultar_materias.php" class="nav-link active">Lista</a></li>
 							</ul>
 						</li>
 
-						<li class="nav-item nav-item-submenu nav-item-closed">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Grupos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
-								<li class="nav-item"><a href="agregar_grupos.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="consultar_grupos.html" class="nav-link active">Lista</a></li>
+								<li class="nav-item"><a href="agregar_grupos.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="consultar_grupos.php" class="nav-link active">Lista</a></li>
 							</ul>
 						</li>
 
@@ -452,6 +452,13 @@
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Pago Transpais</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
 								<li class="nav-item"><a href="Registro_pago.html" class="nav-link active">Registro</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item nav-item-submenu nav-item-closed">
+							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Tutorias</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
+								<li class="nav-item"><a href="Tutoria.php" class="nav-link active">Lista</a></li>
 							</ul>
 						</li>
 
@@ -475,7 +482,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Registro de pago Transpais</span> </h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">modificar tutoria</span> </h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -491,8 +498,8 @@
 				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
 					<div class="d-flex">
 						<div class="breadcrumb">
-							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<span class="breadcrumb-item active">Agregar alumnos</span>
+							<a href="index.php" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+							<span class="breadcrumb-item active">modificar tutoria</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -536,7 +543,7 @@
 						<!-- Basic layout-->
 						<div class="card">
 							<div class="card-header header-elements-inline">
-								<h5 class="card-title">Registro de pago</h5>
+								<h5 class="card-title">modificar tutoria</h5>
 								<div class="header-elements">
 									<div class="list-icons">
 				                		<a class="list-icons-item" data-action="collapse"></a>
@@ -548,68 +555,27 @@
 
 							<div class="card-body">
 								<form action="#">
-									<div class="form-group row">
-										<label class="col-lg-3 col-form-label">Matricula:</label>
-										<div class="col-lg-9">
-											<input type="text" class="form-control" placeholder="1930168">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-lg-3 col-form-label">Nombre:</label>
-										<div class="col-lg-9">
-											<input type="text" class="form-control" placeholder="Josue">
-										</div>
-									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Fecha:</label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control" placeholder="16-10-2019">
+											<input type="date" class="form-control" placeholder="26-10-2018">
 										</div>
-									</div>			
+									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Horario:</label>
 										<div class="col-lg-9">
-											<select class="form-control form-control-select2" data-fouc>
-
-												<option value="MAT">Matutino</option>
-												<option value="VES">Vespertino</option>
-
-											</select>
+											<input type="text" class="form-control" placeholder="18:00">
 										</div>
 									</div>
 
 									<div class="form-group row">
-										<label class="col-lg-3 col-form-label">Ruta:</label>
+										<label class="col-lg-3 col-form-label">Tema:</label>
 										<div class="col-lg-9">
-											<select class="form-control form-control-select2" data-fouc>
-
-												<option value="EDMX">Moderna</option>
-												<option value="CDMX">Centro</option>
-												<option value="TAM">Conalep</option>
-												<option value="NL">Libertad</option>
-												
-											</select>
+											<input type="text" class="form-control" placeholder="Inicio a clases">
 										</div>
 									</div>
-
-									<div class="form-group row">
-										<label class="col-lg-3 col-form-label">Carrera:</label>
-										<div class="col-lg-9">
-											<select class="form-control form-control-select2" data-fouc>
-
-												<option value="ITI">ITI</option>
-												<option value="IM">IM</option>
-												<option value="IMA">IMA</option>
-												<option value="ISA">ISA</option>
-												<option value="LAYGE">LAYGE</option>
-
-											</select>
-										</div>
-									</div>
-
 
 								</form>
 							</div>

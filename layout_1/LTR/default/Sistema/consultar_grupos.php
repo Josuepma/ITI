@@ -736,6 +736,28 @@
 			</div>
 			<!-- modificar maestros -->
 
+			<!-- eliminar -->
+			<div id="eliminar" class="modal fade" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header bg-danger">
+							<h6 class="modal-title">Eliminar</h6>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<div class="modal-body">
+							<p>¿Está seguro que desea eliminar?</p>
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>
+							<button type="button" class="btn bg-danger">Confirmar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Eliminar -->
+
 			<!-- Footer -->
 			<div class="navbar navbar-expand-lg navbar-light">
 				<div class="text-center d-lg-none w-100">

@@ -566,14 +566,14 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Fecha:</label>
 										<div class="col-lg-9">
-											<input type="date" class="form-control" placeholder="2018">
+											<input type="date" class="form-control" placeholder="26-10-2018">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Horario:</label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control" placeholder="Vespertino">
+											<input type="text" class="form-control" placeholder="18:00">
 										</div>
 									</div>
 
@@ -587,7 +587,7 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Tema:</label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control" placeholder="Gregorio Toscano Pulido">
+											<input type="text" class="form-control" placeholder="Inicio a clases">
 										</div>
 									</div>
 
