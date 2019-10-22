@@ -562,14 +562,14 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">ID:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="1890">
+											<input type="number" class="form-control" placeholder="1890">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Especialidad:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="licenciatura">
+											<input type="text" class="form-control" placeholder="licenciatura">
 										</div>
 									</div>
 								</form>

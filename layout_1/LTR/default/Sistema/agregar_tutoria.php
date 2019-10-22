@@ -23,11 +23,11 @@
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
 	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/datatables_basic.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/form_layouts.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -407,7 +407,6 @@
 								<i class="icon-home4"></i>
 								<span>
 									Dashboard
-									<span class="d-block font-weight-normal opacity-50">No active orders</span>
 								</span>
 							</a>
 						</li>
@@ -415,8 +414,8 @@
 						
 						<!-- /main -->
 
-						<!-- opciones -->
-					
+						<!-- Forms -->
+		
 						<li class="nav-item nav-item-submenu nav-item-closed">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Alumnos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
@@ -424,8 +423,8 @@
 								<li class="nav-item"><a href="consultar_alumnos.php" class="nav-link active">Lista</a></li>
 							</ul>
 						</li>
-						
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+
+						<li class="nav-item nav-item-submenu nav-item-closed">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Maestros</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
 								<li class="nav-item"><a href="agregar_maestros.php" class="nav-link active">Agregar</a></li>
@@ -441,7 +440,7 @@
 							</ul>
 						</li>
 
-						<li class="nav-item nav-item-submenu nav-item-closed">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Grupos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
 								<li class="nav-item"><a href="agregar_grupos.php" class="nav-link active">Agregar</a></li>
@@ -449,7 +448,21 @@
 							</ul>
 						</li>
 
-						<!-- /opciones -->
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Pago Transpais</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
+								<li class="nav-item"><a href="Registro_pago.html" class="nav-link active">Registro</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item nav-item-submenu nav-item-closed">
+							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Tutorias</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
+								<li class="nav-item"><a href="Tutoria.php" class="nav-link active">Lista</a></li>
+							</ul>
+						</li>
+
+						<!-- /forms -->
 
 					</ul>
 				</div>
@@ -469,7 +482,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold"></span>Consultar maestros</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Agregar tutoria</span> </h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -486,7 +499,7 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.php" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<span class="breadcrumb-item active">Consultar maestros</span>
+							<span class="breadcrumb-item active">Agregar tutoria</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -523,549 +536,74 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Basic datatable -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Consultar maestros</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
+				<!-- Horizontal form options -->
+				<div class="row">
+					<div class="col-md-6">
+
+						<!-- Basic layout-->
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h5 class="card-title">Agregar tutoria</h5>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<form action="#">
+
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">ID:</label>
+										<div class="col-lg-9">
+											<input type="text" class="form-control" placeholder="1890">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">Fecha:</label>
+										<div class="col-lg-9">
+											<input type="date" class="form-control" placeholder="2018">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">Horario:</label>
+										<div class="col-lg-9">
+											<input type="text" class="form-control" placeholder="Vespertino">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">Maestro:</label>
+										<div class="col-lg-9">
+											<input type="text" class="form-control" placeholder="Gregorio Toscano Pulido">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">Tema:</label>
+										<div class="col-lg-9">
+											<input type="text" class="form-control" placeholder="Gregorio Toscano Pulido">
+										</div>
+									</div>
+
+								</form>
+							</div>
+						</div>
+						<!-- /basic layout -->
+
 					</div>
 
-					<div align="right"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#agregar">Agregar </button></div>
+					<div class="col-md-6">
 
-					<table class="table datatable-basic">
-						<thead>
-							<tr>
-								<th>Nombre</th>
-								<th>Apellido</th>
-								<th>Correo</th>
-								<th>Celular</th>
-								<th>Carrera</th>	
-								<!--<th>Profesion</th>
-								<th>Habilidad</th>
-								<th>Direccion</th>
-								<th>Horas de trabajo</th>
-								<th>Hobby</th>	-->
-								<th>Estado</th>
-								<th class="text-center">Acciones</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Marth</td>
-								<td>Simpson</td>
-								<td>marths@gmail.com</td>
-								<td>8345163596</td>
-								<td>Ingeniería industrial</td>
-								<!--<td>Componentes mecanicos</td>
-								<td>Ensamblaje</td>
-								<td>22 de noviembre #864</td>
-								<td>8 horas</td>
-								<td>Futbol</td>-->
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sheldon</td>
-								<td>Sampson</td>
-								<td>SheldonS@gmail.com</td>
-								<td>8345163789</td>
-								<td>Ingeniería en Sistemas</td>
-								<!--<td>Componentes mecanicos</td>
-								<td>Ensamblaje</td>
-								<td>22 de noviembre #864</td>
-								<td>8 horas</td>
-								<td>Futbol</td>-->
-								<td><span class="badge badge-secondary">inactivo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Kalley</td>
-								<td>Cuoco</td>
-								<td>KalleyC@gmail.com</td>
-								<td>8347895468</td>
-								<td>Ingeniería en Mecatrónica</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Jim</td>
-								<td>Parsons</td>
-								<td>jimp@gmail.com</td>
-								<td>8344563512</td>
-								<td>Ingeniería en Manufactura</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Leonard</td>
-								<td>Hofstadter</td>
-								<td>leonardh@gmail.com</td>
-								<td>8346451232</td>
-								<td>Licenciatura en PyMES</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Howard</td>
-								<td>Holowitz</td>
-								<td>howardh@gmail.com</td>
-								<td>8348546235</td>
-								<td>Ingeniería en Mecatrónica</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Simon</td>
-								<td>Helberg</td>
-								<td>simonh@gmail.com</td>
-								<td>8341231542</td>
-								<td>Ingeniería en Mecatrónica</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Chamdler</td>
-								<td>Big</td>
-								<td>chamdlerb@gmail.com</td>
-								<td>8343212525</td>
-								<td>Ingeniería en Tecnologías de la información</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Ross</td>
-								<td>Geller</td>
-								<td>rossg@gmail.com</td>
-								<td>8343212654</td>
-								<td>Ingeniería en Tecnologías de la información</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Eric</td>
-								<td>Gablehauser</td>
-								<td>ericg@gmail.com</td>
-								<td>8343218525</td>
-								<td>Ingeniería en Tecnologías de la información</td>
-								<td><span class="badge badge-success">activo</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar"><i class="icon-pencil5"></i> Modificar</button>
-												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<!-- /basic datatable -->
 
 			</div>
 			<!-- /content area -->
 
-
-			<!-- agregar maestros -->
-			<div id="agregar" class="modal fade" tabindex="-1">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Agregar</h5>
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-						</div>
-
-						<form action="#" class="form-horizontal">
-							<div class="modal-body">
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Nombre:</label>
-									<div class="col-lg-9">
-										<input type="text" class="form-control" placeholder="Josue Perales">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Contraseña:</label>
-									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="Contraseña">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Correo electrónico:</label>
-									<div class="col-lg-9">
-										<input type="email" class="form-control" placeholder="jepma2001@gmail.com">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Correo de recuperación:</label>
-									<div class="col-lg-9">
-										<input type="email" class="form-control" placeholder="artus.mx@gmail.com">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Celular:</label>
-									<div class="col-lg-9">
-										<input type="tel" class="form-control" placeholder="8342213114">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Celular de recuperación:</label>
-									<div class="col-lg-9">
-										<input type="tel" class="form-control" placeholder="8341506192">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Carrera:</label>
-									<div class="col-lg-9">
-										<input type="text" class="form-control" placeholder="Licenciatura en Matemáticas">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Profesión:</label>
-									<div class="col-lg-9">
-										<input type="text" class="form-control" placeholder="maestro">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Habilidades:</label>
-									<div class="col-lg-9">
-										<input type="text" class="form-control" placeholder="Programación en C">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Dirección:</label>
-									<div class="col-lg-9">
-										<input type="text" class="form-control" placeholder="21 Fermín Legorreta">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Horario disponible:</label>
-									<div class="col-lg-9">
-										<input type="text" class="form-control" placeholder="8:00 Am - 6:00 pm">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Estado:</label>
-									<div class="col-lg-9">
-										<select class="form-control form-control-select2" data-fouc>
-
-											<option value="EDMX">Edo. México</option>
-											<option value="CDMX">Cd. México</option>
-											<option value="TAM">Tamaulipas</option>
-											<option value="NL">Nuevo León</option>
-											<option value="CHL">Coahuila</option>
-											<option value="BC">Baja California</option>
-											<option value="BCS">Baja California Sur</option>
-											<option value="SN">Sonora</option>
-											<option value="NY">Nayarit</option>
-											<option value="SLP">San Luis Potosí</option>
-											<option value="ZCT">Zacatecas</option>
-											<option value="HD">Hidalgo</option>
-											<option value="VC">Veracruz</option>
-											<option value="GR">Guerrero</option>
-											<option value="MR">Morelia</option>
-											<option value="JLC">Jalisco</option>
-											<option value="QRT">Querétaro</option>
-											<option value="PBL">Puebla</option>
-											<option value="GNJ">Guanajuato</option>
-											<option value="TLX">Tlaxcala</option>
-											<option value="OAX">Oaxaca</option>
-											<option value="YCT">Yucatan</option>
-											<option value="QTO">Quintana Roo</option>
-											<option value="TBC">Tabasco</option>
-											<option value="CPS">Chiapas</option>
-											<option value="CHH">Chihuahua</option>
-											<option value="SNL">Sinaloa</option>
-											<option value="CLM">Colima</option>
-											<option value="CMP">Campeche</option>
-											<option value="DRN">Durango</option>
-											<option value="AGS">Aguascalientes</option>
-											<option value="MCN">Michoacan</option>
-											<option value="MRL">Morelos</option>
-
-										</select>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Sexo:</label>
-									<div class="col-lg-9">
-										<div class="form-check form-check-inline">
-											<label class="form-check-label">
-												<input type="radio" class="form-input-styled" name="sexo" checked data-fouc>
-												Hombre
-											</label>
-										</div>
-
-										<div class="form-check form-check-inline">
-											<label class="form-check-label">
-												<input type="radio" class="form-input-styled" name="sexo" data-fouc>
-												Mujer
-											</label>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Foto de perfil:</label>
-									<div class="col-lg-9">
-										<input type="file" class="form-input-styled" data-fouc>
-										<span class="form-text text-muted">Formatos permitidos: gif, png, jpg.</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="modal-footer">
-								<button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>
-								<button type="submit" class="btn bg-primary">Agregar</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<!-- agregar maestros -->
-
-			<!-- modificar maestros -->
-			<div id="modificar" class="modal fade" tabindex="-1">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Modificar</h5>
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-						</div>
-
-						<form action="#" class="form-horizontal">
-							<div class="modal-body">
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Contraseña:</label>
-									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="Contraseña">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Correo electrónico:</label>
-									<div class="col-lg-9">
-										<input type="email" class="form-control" placeholder="jepma2001@gmail.com">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Correo de recuperación:</label>
-									<div class="col-lg-9">
-										<input type="email" class="form-control" placeholder="artus.mx@gmail.com">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Celular:</label>
-									<div class="col-lg-9">
-										<input type="tel" class="form-control" placeholder="8342213114">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Celular de recuperación:</label>
-									<div class="col-lg-9">
-										<input type="tel" class="form-control" placeholder="8341506192">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Carrera:</label>
-									<div class="col-lg-9">
-										<select class="form-control form-control-select2" data-fouc>
-
-											<option value="ITI">ITI</option>
-											<option value="IM">IM</option>
-											<option value="IMA">IMA</option>
-											<option value="ISA">ISA</option>
-											<option value="LAYGE">LAYGE</option>
-
-										</select>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label">Foto de perfil:</label>
-									<div class="col-lg-9">
-										<input type="file" class="form-input-styled" data-fouc>
-										<span class="form-text text-muted">Formatos permitidos: gif, png, jpg.</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="modal-footer">
-								<button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>
-								<button type="submit" class="btn bg-primary">Modificar</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<!-- modificar maestros -->
-
-			<!-- eliminar -->
-			<div id="eliminar" class="modal fade" tabindex="-1">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header bg-danger">
-							<h6 class="modal-title">Eliminar</h6>
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-						</div>
-
-						<div class="modal-body">
-							<p>¿Está seguro que desea eliminar?</p>
-						</div>
-
-						<div class="modal-footer">
-							<button type="button" class="btn btn-link" data-dismiss="modal">Cerrar</button>
-							<button type="button" class="btn bg-danger">Confirmar</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Eliminar -->
 
 			<!-- Footer -->
 			<div class="navbar navbar-expand-lg navbar-light">

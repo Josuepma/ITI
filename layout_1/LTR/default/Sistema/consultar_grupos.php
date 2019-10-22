@@ -662,28 +662,28 @@
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label">ID:</label>
 									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="1890">
+										<input type="number" class="form-control" placeholder="1890">
 									</div>
 								</div>
 
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label">Año:</label>
 									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="2018">
+										<input type="number" class="form-control" placeholder="2018">
 									</div>
 								</div>
 
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label">Horario:</label>
 									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="Vespertino">
+										<input type="text" class="form-control" placeholder="Vespertino">
 									</div>
 								</div>
 
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label">Tutor:</label>
 									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="Gregorio Toscano Pulido">
+										<input type="text" class="form-control" placeholder="Gregorio Toscano Pulido">
 									</div>
 								</div>
 							</div>
@@ -713,14 +713,14 @@
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label">Nombre:</label>
 									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="ISA 1-1">
+										<input type="text" class="form-control" placeholder="ISA 1-1">
 									</div>
 								</div>
 
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label">Tutor:</label>
 									<div class="col-lg-9">
-										<input type="password" class="form-control" placeholder="Gregorio Toscano Pulido">
+										<input type="text" class="form-control" placeholder="Gregorio Toscano Pulido">
 									</div>
 								</div>
 								

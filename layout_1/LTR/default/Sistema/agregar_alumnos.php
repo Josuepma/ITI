@@ -579,35 +579,35 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Matricula:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="1930168">
+											<input type="number" class="form-control" placeholder="1930168">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Correo electrónico:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="jepma2001@gmail.com">
+											<input type="email" class="form-control" placeholder="jepma2001@gmail.com">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Correo de recuperación:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="artus.mx@gmail.com">
+											<input type="email" class="form-control" placeholder="artus.mx@gmail.com">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Celular:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="8342213114">
+											<input type="tel" class="form-control" placeholder="8342213114">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Celular de recuperación:</label>
 										<div class="col-lg-9">
-											<input type="password" class="form-control" placeholder="8341506192">
+											<input type="tel" class="form-control" placeholder="8341506192">
 										</div>
 									</div>
 
