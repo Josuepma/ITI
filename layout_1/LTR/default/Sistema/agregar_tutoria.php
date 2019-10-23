@@ -559,7 +559,7 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">ID:</label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control" placeholder="1890">
+											<input type="number" class="form-control" placeholder="1890">
 										</div>
 									</div>
 
@@ -585,11 +585,32 @@
 									</div>
 
 									<div class="form-group row">
+										<label class="col-lg-3 col-form-label">Matricula de alumno:</label>
+										<div class="col-lg-9">
+											<input type="number" class="form-control" placeholder="1930168">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<select class="form-control form-control-select2" data-fouc>
+
+											<option value="ITI">ITI</option>
+											<option value="IM">IM</option>
+											<option value="IMA">IMA</option>
+											<option value="ISA">ISA</option>
+											<option value="LAYGE">LAYGE</option>
+
+										</select>
+									</div>
+
+									<div class="form-group row">
 										<label class="col-lg-3 col-form-label">Tema:</label>
 										<div class="col-lg-9">
 											<input type="text" class="form-control" placeholder="Inicio a clases">
 										</div>
 									</div>
+
+
 
 								</form>
 							</div>
