@@ -1106,7 +1106,7 @@
 											<td>
 												<a href="#" class="text-default">
 													<div>[#1038] Problema con mis padres</div>
-													<span class="text-muted">The <code>files</code> Hace unos días surgió un problema y estoy un poco...</span>
+													<span class="text-muted"> Hace unos días surgió un problema y estoy un poco...</span>
 												</a>
 											</td>
 											<td class="text-center">
