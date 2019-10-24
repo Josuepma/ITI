@@ -952,6 +952,242 @@
 						</div>
 						<!-- /today's revenue -->
 					</div>
+
+					<!-- Support tickets -->
+						<div class="card">
+							<div class="card-header header-elements-sm-inline">
+								<h6 class="card-title">Tutorías</h6>
+								<div class="header-elements">
+									<a class="text-default daterange-ranges font-weight-semibold cursor-pointer dropdown-toggle">
+										<i class="icon-calendar3 mr-2"></i>
+										<span></span>
+									</a>
+			                	</div>
+							</div>
+
+							<div class="card-body d-md-flex align-items-md-center justify-content-md-between flex-md-wrap">
+
+								<div class="d-flex align-items-center mb-3 mb-md-0">
+									<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon">
+										<i class="icon-alarm-add"></i>
+									</a>
+									<div class="ml-3">
+										<h5 class="font-weight-semibold mb-0">1,132</h5>
+										<span class="text-muted">tutorías totales</span>
+									</div>
+								</div>
+
+								<div>
+									<a href="#" class="btn bg-teal-400"><i class="icon-statistics mr-2"></i> Report</a>
+								</div>
+							</div>
+
+							<div class="table-responsive">
+								<table class="table text-nowrap">
+									<thead>
+										<tr>
+											<th style="width: 50px">Hora</th>
+											<th style="width: 300px;">Alumno</th>
+											<th>Descripción</th>
+											<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="table-active table-border-double">
+											<td colspan="3">Tutorías proximas</td>
+											<td class="text-right">
+												<span class="badge bg-blue badge-pill">24</span>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="text-center">
+												<h6 class="mb-0">12</h6>
+												<div class="font-size-sm text-muted line-height-1">hours</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#" class="btn bg-teal-400 rounded-round btn-icon btn-sm">
+															<span class="letter-icon"></span>
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold letter-icon-title">Annabelle Doney</a>
+														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> proxima</div>
+													</div>
+												</div>
+											</td>
+											<td>
+												<a href="#" class="text-default">
+													<div class="font-weight-semibold">[#1183] Beca asesoría</div>
+													<span class="text-muted">Durante la convocatoria de becas tuve un problema con los docu...</span>
+												</a>
+											</td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
+															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
+															<div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
+															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+
+										<tr class="table-active table-border-double">
+											<td colspan="3">Tutorías realizadas</td>
+											<td class="text-right">
+												<span class="badge bg-success badge-pill">42</span>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="text-center">
+												<i class="icon-checkmark3 text-success"></i>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#" class="btn bg-success-400 rounded-round btn-icon btn-sm">
+															<span class="letter-icon"></span>
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alan Macedo</a>
+														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Realizada</div>
+													</div>
+												</div>
+											</td>
+											<td>
+												<a href="#" class="text-default">
+													<div>[#1046] Problema con compañero</div>
+													<span class="text-muted">La clase del profesor Jorge me par...</span>
+												</a>
+											</td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
+															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
+															<div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
+															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="text-center">
+												<i class="icon-checkmark3 text-success"></i>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#" class="btn bg-pink-400 rounded-round btn-icon btn-sm">
+															<span class="letter-icon"></span>
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold letter-icon-title">Brett Castellano</a>
+														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Realizada</div>
+													</div>
+												</div>
+											</td>
+											<td>
+												<a href="#" class="text-default">
+													<div>[#1038] Problema con mis padres</div>
+													<span class="text-muted">The <code>files</code> Hace unos días surgió un problema y estoy un poco...</span>
+												</a>
+											</td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
+															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
+															<div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
+															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="text-center">
+												<i class="icon-checkmark3 text-success"></i>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">Roxanne Forbes</a>
+														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Realizada</div>
+													</div>
+												</div>
+											</td>
+											<td>
+												<a href="#" class="text-default">
+													<div>[#1034] Navidad</div>
+													<span class="text-muted">Tenemos los elementos necesarios para poder realizar...</span>
+												</a>
+											</td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
+															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
+															<div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
+															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!-- /support tickets -->
+
+						<!-- Members online -->
+						<div class="card bg-teal-400">
+							<div class="card-body">
+								<div class="d-flex">
+									<h3 class="font-weight-semibold mb-0">2,161</h3>
+									<span class="badge bg-teal-800 badge-pill align-self-center ml-auto">+82,9%</span>
+			                	</div>
+			                	
+			                	<div>
+									Tutorías realizadas
+								</div>
+							</div>
+
+							<div class="container-fluid">
+								<div id="members-online"></div>
+							</div>
+						</div>
+						<!-- /members online -->
 				</div>
 
 				<!-- /dashboard content -->
