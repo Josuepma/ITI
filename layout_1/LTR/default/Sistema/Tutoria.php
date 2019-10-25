@@ -587,6 +587,48 @@
 									</div>
 								</td>
 							</tr>
+
+							<tr>
+								<td>1</td>
+								<td>ITI</td>
+								<td>Jorge Arturo Hernandez Almazán</td>
+								<td>Reflexion</td>
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar" onclick="location='modificar_tutoria.php'"><i class="icon-pencil5"></i> Modificar</button>
+												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>1</td>
+								<td>ITI</td>
+								<td>Jorge Arturo Hernandez Almazán</td>
+								<td>Reflexion Bambu</td>
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#modificar" onclick="location='modificar_tutoria.php'"><i class="icon-pencil5"></i> Modificar</button>
+												<button type="button" class="dropdown-item" data-toggle="modal" data-target="#eliminar"><i class="icon-cancel-square2"></i> Eliminar</button>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
 							
 						</tbody>
 					</table>
